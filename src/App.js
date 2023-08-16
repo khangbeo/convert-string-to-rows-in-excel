@@ -89,7 +89,7 @@ function App() {
               name="header"
               value={formData.header}
               onChange={handleChange}
-              placeholder="Enter your header here"
+              placeholder="Enter your header"
             />
             <div className="error">{error.header}</div>
           </div>
